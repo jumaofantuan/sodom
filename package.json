@@ -1,0 +1,37 @@
+{
+  "name": "sodom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "start": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jumaofantuan/sodom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jumaofantuan/sodom/issues"
+  },
+  "homepage": "https://github.com/jumaofantuan/sodom#readme",
+  "dependencies": {
+    "@vssue/api-github-v4": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8",
+    "vue-template-compiler": "^2.7.13"
+  },
+  "resolutions": {
+    "watchpack": "1.7.2"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.9.7",
+    "vuepress": "^1.9.7",
+    "vuepress-theme-reco": "^1.6.16"
+  }
+}
