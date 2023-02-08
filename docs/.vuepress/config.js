@@ -1,7 +1,7 @@
 const headConf = require("./config/headConf")
 const pluginsConf = require("./config/pluginsConf")
-const navConf = require("./config/navConf")
-const sidebarConf = require("./config/sidebarConf")
+const navConf = require("./nav.js")
+
 module.exports = {
   base: '/sodom/',
   title: '橘猫饭团',
@@ -25,6 +25,5 @@ module.exports = {
     //导航栏链接
     nav: navConf,
     // 侧边栏
-    sidebar: sidebarConf,
   }
 }

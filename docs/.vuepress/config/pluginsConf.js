@@ -8,7 +8,7 @@ module.exports = {
       repo: 'sodom',
       clientId: secret.clientId,
       clientSecret: secret.clientSecret,
-    }
+    },
   },
     // '@vssue/vuepress-plugin-vssue': {
     //   // 设置 `platform` 而不是 `api`
@@ -27,5 +27,8 @@ module.exports = {
       message: "发现新内容",
       buttonText: "刷新"
     }
+  },
+  "vuepress-plugin-auto-sidebar": {
+    nav: true
   }
 }
