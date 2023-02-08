@@ -1,13 +1,13 @@
 module.exports = [
   { text: '首页', link: '/' },
-  { text: 'Guide', link: '/about', target: '_blank' },
-  { text: 'External', link: 'https://google.com', target: '_self', rel: '' },
+  { text: '关于我', link: '/about', target: '_blank' },
+  // { text: 'External', link: 'https://google.com', target: '_self', rel: '' },
   {
-    text: 'Languages',
-    ariaLabel: 'Language Menu',
+    text: '前端',
+    ariaLabel: '前端 Menu',
     items: [
-      { text: 'Chinese', link: '/language/chinese/' },
-      { text: 'Japanese', link: '/language/japanese/' }
+      { text: 'javascript', link: '/javascript/' },
+      { text: 'css', link: '/css/' }
     ]
   }
 ]
